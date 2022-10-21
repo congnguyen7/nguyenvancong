@@ -1,0 +1,71 @@
+1
+Đặt tên biến (Variables): chữ cái đầu viết thường,..
+	vd: biến có kiểu  List thì nên đặt tên là studentList, kiểu là Set  là studentSet, kiểu Map tstudentMap, Array thì nên đặt studentArray,...
+Đặt tên hằng số (Constant): VIET_HOA, TEN
+Đặt tên Class và Interface: Chữ Cái Đầu Tiên Của Mỗi Từ Phải Được Viết Hoa : Class SinhVien
+	Tên Interface nên có thêm chữ I đằng trước. Ví dụ: IFrame.
+	Tên lớp dẫn xuất nên có từ Abstract làm tiền tố, ví dụ: Class AbstractStudent
+Đặt tên Package: vietthuong
+Đặt tên Project: ChuCaiDaiVietHoa
+
+2	
+Kieu du lieu trong java:
+	byte ..
+	short ..
+	int .. so nguyen
+	long ...
+	float ...
+	double ... so thuc
+	boolean logic
+	char ... 'ki tu'
+Ep kieu:
+        1. int i = 100;    
+           float f = i;    // chuyển từ kiểu dữ liệu int lên kiểu float
+        2. double myDouble = 9.78d;
+	  int myInt = (int)myDouble;
+Bien va khai bao bien : int tuoi = 10; ... 
+	Mỗi biến trong Java bao gồm 3 phần sau: tên biến, kiểu dữ liệu và giá trị của biến đó.
+	Trong Java có 3 loại biến thường gặp đó là: 
+		Local variable (biến cục bộ): biến được khai báo bên trong thân hàm
+		Instance variable (thuộc tính) 
+		Static variable (biến tĩnh).
+	Cách khai báo biến trong Java: có 2 cách. Tuy nhiên chúng ta nên sử dụng cách 2.
+		Cách 1: [kiểu_dữ_liệu] [tên_biến]; ví dụ double d1;
+		Cách 2: [kiểu_dữ_liệu] [tên_biến] = [giá_trị]; ví dụ double d1 = 100.04;
+	Equals and Not Equals: == , !=  (bang nhau khong, khong bang nhau khong)
+		Để kiểm tra xem hai biến có không bằng nhau hay không, chúng ta có thể sử dụng !=
+
+Hang va khai bao hang : final int x = 10; 
+			public static final String CHUOI = "Hello"
+	Để khai báo hằng số ta sử dụng từ khóa static final đặt trước tên hằng số: [Phạm vi truy cập] static final [kiểu dữ liệu] [tên hằng số] = [giá trị];
+String:
+	Phuong thuc
+	equals(s)			kiểm tra hai chuỗi giống nhau
+			System.out.println(line1.equals(line2); 	: kiem tra xem line1 va line2 co giong nhau hay k	
+	length()				Trả về chiều dài chuỗi
+	concat()				Nối 2 chuỗi String string1 = "Học "; String string2 = "Java"; String string3 = string1.concat(string2);
+	charAt(int index)			trả về ký tự tại vị trí index trong chuỗi, ký tự đầu tiên chỉ số index là 0
+	equalsIgnoreCase(s)		kiểm tra hai chuỗi giống nhau (không phân biệt chữ hoa/thường)
+	replace(old,new)			tìm và thay thế ký tự, chuỗi
+	substring(int begin)		trả về trích xuất chuỗi con từ begin đến cuối hoặc end
+	substring(int begin, int end)	
+	toLowerCase()			trả về chuỗi mới bằng cách đổi chữ Hoa thành thường 
+	toUpperCase			thường thành Hoa
+	trim()				ngắt bỏ khoảng trắng ở đầu và cuỗi
+	toCharArray()			lấy mảng các ký tự
+	contains(s)			kiểm tra có chứ	a một chuỗi con
+	IsEmpty()			kiểm tra chuỗi có rỗng không.
+	split(separator)			chia chuỗi thành mảng với điểm ngắt là ký tự separator. Ví dụ tách chuỗi thành các từ str.split(" ");
+
+
+
+
+
+
+
+
+
+
+
+
+	

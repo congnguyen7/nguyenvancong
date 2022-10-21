@@ -1,0 +1,8 @@
+Basic Java
+Nhap xuat ki tu tu ban phim
+Kieu du lieu trong java
+ Ep kieu
+ Bien va thao tac voi bien
+ Hang so	
+ Toan tu
+ String
