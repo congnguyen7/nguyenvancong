@@ -1,8 +1,16 @@
-Basic Java
-Nhap xuat ki tu tu ban phim
-Kieu du lieu trong java
- Ep kieu
- Bien va thao tac voi bien
- Hang so	
- Toan tu
+(Java) - Learning the Java Language
+//Session1:
+https://www.codecademy.com/courses/learn-java/lessons/learn-java-variables/
+Variables
+Data types
+Type casting
+Constants	
+Operator
  String
+ //Session2
+ Array
+ https://dev.java/learn/creating-arrays-in-your-programs/
+ https://www.codecademy.com/learn/paths/learn-java/tracks/learn-java/modules/learn-java-arrays-and-arraylists/cheatsheet
+ Branching with Switch Statements
+ https://dev.java/learn/branching-with-switch-statements/
+

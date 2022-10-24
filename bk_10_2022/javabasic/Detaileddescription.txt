@@ -1,3 +1,4 @@
+/Buoi1
 1
 Đặt tên biến (Variables): chữ cái đầu viết thường,..
 	vd: biến có kiểu  List thì nên đặt tên là studentList, kiểu là Set  là studentSet, kiểu Map tstudentMap, Array thì nên đặt studentArray,...
@@ -7,7 +8,6 @@
 	Tên lớp dẫn xuất nên có từ Abstract làm tiền tố, ví dụ: Class AbstractStudent
 Đặt tên Package: vietthuong
 Đặt tên Project: ChuCaiDaiVietHoa
-
 2	
 Kieu du lieu trong java:
 	byte ..
@@ -38,6 +38,15 @@ Bien va khai bao bien : int tuoi = 10; ...
 Hang va khai bao hang : final int x = 10; 
 			public static final String CHUOI = "Hello"
 	Để khai báo hằng số ta sử dụng từ khóa static final đặt trước tên hằng số: [Phạm vi truy cập] static final [kiểu dữ liệu] [tên hằng số] = [giá trị];
+Toán tử: https://www.youtube.com/watch?v=H9FmP010A_Q&list=PL33lvabfss1yGrOutFR03OZoqm91TSsvs&index=6&ab_channel=Kteam
+	Toan tu toan hoc:
+		a++ :in ra roi cong
+		++a : cong roi in ra man hinh
+	Toan tu quan he: kiem tra gia tri cua 2 bien
+		== kiem tra 2 toan hang xem co bang nhau hay khong
+		!= kiem ... khong bang nhau hay khong
+				
+	
 String:
 	Phuong thuc
 	equals(s)			kiểm tra hai chuỗi giống nhau
@@ -56,8 +65,10 @@ String:
 	contains(s)			kiểm tra có chứ	a một chuỗi con
 	IsEmpty()			kiểm tra chuỗi có rỗng không.
 	split(separator)			chia chuỗi thành mảng với điểm ngắt là ký tự separator. Ví dụ tách chuỗi thành các từ str.split(" ");
-
-
+/Buoi2
+(Java) - Learning the Java Language	Object-Oriented Programming Concepts
+	Language Basics 
+	Classes and Objects 
 
 
 
