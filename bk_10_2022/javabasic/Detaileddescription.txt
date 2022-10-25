@@ -1,3 +1,4 @@
+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
 /Buoi1
 1
 Đặt tên biến (Variables): chữ cái đầu viết thường,..
@@ -65,14 +66,144 @@ String:
 	contains(s)			kiểm tra có chứ	a một chuỗi con
 	IsEmpty()			kiểm tra chuỗi có rỗng không.
 	split(separator)			chia chuỗi thành mảng với điểm ngắt là ký tự separator. Ví dụ tách chuỗi thành các từ str.split(" ");
+//array in java ----------
+Mảng là tập hợp các đối tượng có cùng kiểu dữ liệu và được lưu trữ gần nhau trong bộ nhớ. Mỗi đối tượng hay được gọi là phần tử, các phần từ được phân biệt bằng vị trí (hay chỉ số phần tử), được bắt đầu từ vị trí 0.	
 /Buoi2
-(Java) - Learning the Java Language	Object-Oriented Programming Concepts
-	Language Basics 
-	Classes and Objects 
+///CONTROL STRUCTURE -------------------------------
+		if - else	: Mệnh đề if trong java được sử dụng để kiểm tra giá trị dạng boolean của điều kiện. Mệnh đề này trả về giá trị True hoặc False .
+Cấu trúc if - else thiếu
+	if (điều kiên 1) { 
+    // hành động 1
+    	}
+Cấu trúc if - else đầy đủ.    
+    if (điều kiên 1) {
+    // hành động 1
+    } else {
+    // hành động 2
+    }
+    
+Cấu trúc điều khiển if - else if - else.
+	if (điều kiên 1) {
+	    // hành động 1
+	} else if (điều kiện 2) {
+	    // hành động 2
+	} else if (điều kiện 3) {
+	    // hành động 3
+	} ... else {
+	    // hành động n
+	}
+Cấu trúc toán tử điều kiện 3 ngôi.
+	[Biểu thức điều kiện] ? [Giá trị 1] : [Giá trị 2]; nếu đk đúng thì thực hiện biểu thức giá trị 1, sai thì thực hiện biểu thức giá trị 2.
+	
+		Switch-case: Mệnh đề switch-case trong java được sử dụng để thực thi 1 hoặc nhiều khối lệnh từ nhiều điều kiện.
+switch (biểu_thức) {
+    case giá_trị_1:
+        Lệnh 1;
+        break;
+    case giá_trị_2:
+        Lệnh 2;
+        break;
+    ...
+    case giá_trị_n:
+        Lệnh n;
+        break;
+    [default: Lệnh 0;]
+}
+	chương trình sẽ so sánh giá trị của biểu_thức với các giá trị từ giá_trị_1, giá_trị_2,..., giá_trị_n. Nếu trong các giá trị từ giá_trị_1, giá_trị_2,..., giá_trị_n có giá trị nào bằng với giá trị của biểu_thức thì chương trình sẽ bắt đầu thực hiện các lệnh tương ứng nằm trong case của giá trị đó cho đến khi gặp một lệnh break 
+	Lệnh break là để nhảy ra khỏi lệnh switch, nếu không có lệnh này cấu trúc switch sẽ duyệt cả các trường hợp phía dưới cho đến khi gặp dấu đóng switch (dấu })	
+///LOOP	-------------------------------	
+--------For loop : Vòng lặp for là một cấu trúc lặp có số lần lặp được xác định trước
+vong lap don gian
+	for (khoi_tao_bien ; check_dieu_kien ; tang/giam_bien) {  
+    	// Khối lệnh được thực thi
+	}  
+Cai tien
+	for (Type var : array) {  
+	    // Khối lệnh được thực thi
+	} 
+	
+        int arr[] = { 12, 23, 44, 56, 78 };
+        for (int i : arr) {
+            System.out.println(i);
+        }
+Vòng lặp for lồng nhau
+	// Vòng lặp for bên ngoài thực thi 3 lần với row = 1, 2, 3.
+		for (number1 = 1; number1 <= 3; number1++) {
+		    // Mỗi lần lặp for bên ngoài 
+		    // thì vòng lặp for trong sẽ thực thi 2 lần với col = 1, 2.
+		    for (number2 = 1; number2 <= 2; number2++) {
+		        System.out.println("number1 = " + number1 + ", number2 = " + number2);
+		    }
+number1=1, number2=1
+number1=1, number2=2
+number1=2 number2=1
+number1=2, number2=2 ...
+---------while loop: Vòng lặp while là cấu trúc điều khiển lặp được dùng để thực hiện một lệnh hay một khối lệnh với số lần lặp chưa xác định trước. Với cấu trúc này điều kiện lặp được kiểm tra trước khi thực hiện thân của vòng lặp.
+    // Khối lệnh được lặp lại cho đến khi điều_kiện_lặp = False
 
+	while (điều_kiện_lặp) {
+    	// Các lệnh
+	}
+	// Lệnh kế tiếp	
 
+		điều_kiện_lặp là biểu thức để xác định điều kiện lặp. Biểu thức này phải trả về giá trị là true hoặc false.
+		Các lệnh nằm trong cặp dấu {} là thân của vòng lặp.	
 
+public class TinhTongCacSoNguyen {
+ 
+    public static void main(String[] args) {
+        int number, sum = 0;
+        Scanner scanner = new Scanner(System.in);
+         
+        // bắt đầu vòng lặp
+        // kiểm tra nếu biến sum còn nhỏ hơn 100 thì còn thực hiện.
+        while (sum < 100) {
+            System.out.println("Nhập vào số nguyên bất kỳ: ");
+            number = scanner.nextInt();
+            sum += number;  // sum = sum + number;
+        }     
+        System.out.println("Tổng các số nguyên vừa nhập = " + sum);
+    }
+}
+Bước 1: Khởi tạo biến tổng sum = 0.
+Bước 2: Kiểm tra sum < 100 đúng nên nhập vào số 1 và thực hiện lệnh sum = sum + number = 0 + 1 = 1
+Bước 9: Kiểm tra sum < 100 đúng nên nhập vào số 55 và thực hiện lệnh sum = sum + number = 70 + 55 = 125.
+Bước 10: Kiểm tra sum < 100 sai nên kết thúc vòng lặp while và hiển thị tổng sum = 125 ra màn hình.
 
+----------do while: Vòng lặp do - while là cấu trúc điều khiển lặp được dùng để thực hiện một lệnh hay một khối lệnh với số lần lặp chưa xác định trước nhưng khác với while, cấu trúc do - while chỉ kiểm tra điều kiện lặp sau khi thân vòng lặp đã được thực hiện một lần.
+
+	do {
+		// Các lệnh
+	} while (điều_kiện_lặp);
+	// Lệnh kế tiếp
+	
+        int a = 1, sum = 0;
+        do {
+            sum += a;
+            a++;
+        } while (a <= 5);
+        System.out.println("Sum of 1 to 5  is " + sum);
+    	
+----------break; trong java được sử dụng để stop thực thi lệnh trong vòng lặp hoặc trong mệnh đề switch tại điều kiện đã được chỉ định.
+	từ khóa break thường được dùng với một lệnh if bên trong vòng lặp để kiểm tra điều kiện dừng của vòng lặp.
+---------continue; Khi gặp từ khóa continue thì lần lặp kế tiếp sẽ được thực hiện (tức là bỏ qua không thực hiện các lệnh phía bên dưới từ khóa continue của vòng lặp và quay lên kiểm tra trở lại biểu thức điều kiện lặp).
+	continue cũng thường được dùng với một lệnh if bên trong vòng lặp để kiểm tra khi nào thì cần bỏ qua những lệnh sau nó để tiếp tục thực hiện vòng lặp mới.
+	for (count = 1; count <= 5; count++) {
+		System.out.println("Lần lặp " + count);
+			 * kiểm tra nếu count còn nhỏ hơn 4
+			 * thì còn quay lại vòng for kiểm tra điều kiện lặp 
+			 */
+		if (count < 4) {
+		    continue;
+		}
+			// Nếu count không nhỏ hơn 4 thì hiển thị "Chào bạn!"
+		System.out.println("Chào bạn!");
+	>>lần lặp 1
+	>>lần lặp 2...
+	>>lần lặp 4
+	>>chào bạn
+	>>lần lặp 5
+	>>chào bạn
 
 
 

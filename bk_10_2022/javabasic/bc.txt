@@ -1,3 +1,4 @@
+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
 (Java) - Learning the Java Language
 //Session1:
 https://www.codecademy.com/courses/learn-java/lessons/learn-java-variables/
@@ -13,4 +14,57 @@ Operator
  https://www.codecademy.com/learn/paths/learn-java/tracks/learn-java/modules/learn-java-arrays-and-arraylists/cheatsheet
  Branching with Switch Statements
  https://dev.java/learn/branching-with-switch-statements/
+
+ ///Language Basics
+ -Variables
++Primitive Data Types
++Arrays
+-Operators
++Assignment, Arithmetic, and Unary Operators
++Equality, Relational, and Conditional Operators
++Bitwise and Bit Shift Operators
++Summary of Operators
+-The if-then and if-then-else Statements
+-The switch Statement
+-The while and do-while Statements
+-The break Statement
+ 
+ 	//Classes and Objects 
+What Is an Object? (The Java™ Tutorials >         Learning the Java Language > Object-Oriented Programming Concepts)
+What Is a Class? (The Java™ Tutorials >         Learning the Java Language > Object-Oriented Programming Concepts)
+Lesson: Classes and Objects (The Java™ Tutorials > Learning the Java Language)
+Object và Class trong OOP - Viblo
+Learn by videos: Java - Bài 28: Lớp và các đối tượng
+Practice: codelearn
+
+	//Interfaces:
+Defining an Interface
+Implementing an Interface
+Using an Interface as a Type
+Evolving Interfaces
+Default Methods
+Summary of Interfaces
+Inheritance:
+Multiple Inheritance of State, Implementation, and Type
+Overriding and Hiding Methods
+Polymorphism
+Using the Keyword super
+Lesson: Interfaces and Inheritance (The Java™ Tutorials > Learning the Java Language)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
